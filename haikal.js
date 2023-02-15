@@ -136,7 +136,7 @@ const { mediafireDl } = require('./baseikal/lib/mediafire.js')
 const thumbnail = fs.readFileSync ('./baseikal/image/mamak.jpg')
 const ntilink = JSON.parse(fs.readFileSync("./baseikal/lib/antilink.json"))
 const banned = JSON.parse(fs.readFileSync('./baseikal/dbnye/banned.json'))
-virgam = fs.readFileSync(`./baseikal/image/deden.jpeg`)
+const virgam = fs.readFileSync(`./baseikal/image/deden.jpeg`)
 //=================================================//
 //RPG FUNCTION
 const { 
